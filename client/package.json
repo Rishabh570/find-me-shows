@@ -1,8 +1,8 @@
 {
   "name": "playing-with-redux",
   "version": "1.0.0",
-  "description": "A sample webapp to play with redux!",
-  "main": "app.js",
+  "description": "A sample webapp to play with react and redux!",
+  "main": "App.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rishabh570/find-me-shows.git"

@@ -1,4 +1,3 @@
-import 'babel-polyfill'
 import { createStore } from 'redux'
 import combinedReducers from '../reducers/index'
 

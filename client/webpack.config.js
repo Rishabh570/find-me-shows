@@ -1,15 +1,19 @@
-let debug = process.env.NODE_ENV !== "production";
-let webpack = require('webpack');
-let path = require('path');
+const webpack = require('webpack');
+const path = require('path');
 
 module.exports = {
   mode: 'development',
-  entry: ["./src/App.js"],
+  entry: [
+    './src/App'
+  ],
   output: {
-    path: path.join(__dirname, './public'),
+    path: path.join(__dirname, '/public'),
+    publicPath: '/',
     filename: "bundle.js"
   },
+  devtool: 'cheap-eval-source-map',
   devServer: {
+    contentBase: './public', // VERY IMPORTANT :(
     host: 'localhost',
     hot: true,
     historyApiFallback: true,
@@ -24,7 +28,7 @@ module.exports = {
       test: /\.jsx?$/,
       use: [{
         loader: 'babel-loader',
-        options: {
+        query: {
           presets: ['react', 'es2015', 'react-hmre'],
           babelrc: 'true',
         }
@@ -33,5 +37,5 @@ module.exports = {
       
     }],
   },
-  devtool: 'cheap-eval-source-map',
+  // devtool: 'cheap-eval-source-map',
 }
