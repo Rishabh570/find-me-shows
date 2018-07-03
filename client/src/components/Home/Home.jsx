@@ -6,20 +6,18 @@ import React, { Component } from 'react'
 
 import Typography from '@material-ui/core/Typography';
 
+import Appbar from '../AppBar/Appbar.jsx'
+
 
 class Home extends Component {
     render() {
-        const { classes } = this.props;
-
-
 
         return (
             <div>
-                {/* <Paper> */}
-                    <Typography variant="display3" gutterBottom>
-                        Home
-                    </Typography>
-                {/* </Paper> */}
+                <Appbar />
+                <Typography variant="display3" gutterBottom>
+                    Home
+                </Typography>
             </div>
         );   
     }

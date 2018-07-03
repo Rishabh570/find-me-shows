@@ -5,7 +5,7 @@ import { createBrowserHistory } from 'history';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import { Provider } from 'react-redux'
 import store from './store/index'
-import Home from './containers/Home.jsx'
+import Home from './components/Home/Home.jsx'
 
 const hist = createBrowserHistory();
 
