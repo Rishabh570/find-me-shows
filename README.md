@@ -5,3 +5,7 @@ Watch what people are watching and stay updated all the time :tv: :eyes::astonis
 ## Todo
 
 LOTS OF STUFF!!!
+
+## _Stack_ ->>  **React, Redux, Express, MongoDB**
+
+
