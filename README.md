@@ -1,11 +1,13 @@
-# Find Me Shows
+# Smart Dictionary
 
-Watch what people are watching and stay updated all the time :tv: :eyes::astonished:
+This dictionary provides different ways to make the learning process shorter and effective so that you won't need to stumble upon it everytime! :relaxed:
 
 ## Todo
 
-LOTS OF STUFF!!!
+- [ ] Add a basic landing page to search for words (it also shows trending words)
+- [ ] Provide different types of resources to support the learning process
+- [ ] Ask the meaning of words on every visit of user which he/she studied before
 
-## _Stack_ ->>  **React, Redux, Express, MongoDB**
+## Stack
 
-
+- ### MERN
